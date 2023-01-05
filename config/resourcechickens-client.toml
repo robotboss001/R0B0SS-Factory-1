@@ -1,0 +1,14 @@
+
+[Chickens]
+	#Render Nest labels for named chickens.  Default: true
+	renderLabels = true
+	#Render item drops in the Nest.  Default: true
+	renderItems = true
+	#Animate chickens in JEI.  Default: false  WIP: lighting?
+	renderJEIAnim = false
+	#Allow chicken textures to change on special days.  Default: true
+	allowEventTextures = true
+	#Only show icons of the Nest contents in WAILA/Jade.  Default: false
+	#true will show Icons and Descriptions
+	renderNestContentsIconsOnly = false
+

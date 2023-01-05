@@ -1,0 +1,251 @@
+{
+	id: "2E3C2301378F60A5"
+	group: ""
+	order_index: 0
+	filename: "progression"
+	title: "progression"
+	icon: {
+		id: "ftbquests:book"
+		Count: 1b
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": { }
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -5.5d
+			y: -4.0d
+			id: "30832019D909C77A"
+			tasks: [{
+				id: "510D04A804E6F42D"
+				type: "item"
+				item: "ftbquests:book"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -2.0d
+			id: "06CDBD9C9DB8EEF8"
+			tasks: [{
+				id: "3190D10307B4B434"
+				type: "item"
+				item: "create:crushing_wheel"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 0.0d
+			id: "3252255A365BA1CA"
+			tasks: [{
+				id: "697D3999A07F4F19"
+				type: "item"
+				item: "mekanism:quantum_entangloporter"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 0.0d
+			id: "2FC9DD2BC364D083"
+			tasks: [{
+				id: "42E6C24EA5DA9745"
+				type: "item"
+				item: {
+					id: "thermal:wrench"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.5d
+			id: "5FFA7A7E765D2B0C"
+			tasks: [{
+				id: "33E2DBA254A49C91"
+				type: "item"
+				item: {
+					id: "rftoolsbase:machine_frame"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: 1.0d
+			id: "14623E0A92964F40"
+			tasks: [{
+				id: "7EF70D07D2C209E9"
+				type: "item"
+				item: {
+					id: "upgradednetherite_ultimate:ultimate_upgraded_netherite_ingot"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
+		}
+		{
+			x: -7.0d
+			y: -0.5d
+			id: "332FFEC02948D74B"
+			tasks: [{
+				id: "0AB6A52158979DDB"
+				type: "item"
+				item: {
+					id: "solarflux:sp_1"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
+		}
+		{
+			x: -11.0d
+			y: 0.5d
+			id: "4D464E8B87E9B5AD"
+			tasks: [{
+				id: "633FA3817B4AC16E"
+				type: "item"
+				item: {
+					id: "projecte:philosophers_stone"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: { }
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "6C338359C92F9B73"
+				type: "item"
+				item: {
+					id: "kubejs:projecte_trophy"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
+		}
+		{
+			x: -11.5d
+			y: 3.5d
+			id: "15C406BDE0011C09"
+			tasks: [{
+				id: "68B7B3F8184194C0"
+				type: "item"
+				item: {
+					id: "extendedcrafting:ultimate_table"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
+		}
+		{
+			title: "Applied Energistics 2"
+			icon: {
+				id: "appliedenergistics2:controller"
+				Count: 1b
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": { }
+				}
+			}
+			x: 5.5d
+			y: 1.0d
+			id: "05A5AEB405FEEB3D"
+			tasks: [{
+				id: "25E86A65823C7B6C"
+				type: "checkmark"
+				title: "applied energistics 2"
+			}]
+			rewards: [{
+				id: "6D04941234C6D285"
+				type: "item"
+				item: {
+					id: "kubejs:ae2_trophy"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: 0.0d
+			id: "66F87A8E9A9A2587"
+			tasks: [{
+				id: "59CFD72A83BCEE88"
+				type: "checkmark"
+				title: "Twilight Forest"
+			}]
+			rewards: [{
+				id: "5532C9E96079184A"
+				type: "item"
+				item: {
+					id: "kubejs:twilightforest_trophy"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
+		}
+		{
+			title: "Astral Sorcery"
+			x: 5.5d
+			y: -1.5d
+			id: "41586AFF13701D7B"
+			tasks: [{
+				id: "6F090E2B8C57AA8D"
+				type: "checkmark"
+				title: "astral sorcelry"
+			}]
+			rewards: [{
+				id: "33EC8B324BAED93E"
+				type: "item"
+				item: {
+					id: "kubejs:astralsorcery_trophy"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: 2.5d
+			id: "181980836F84147B"
+			tasks: [{
+				id: "6D21CFF5FC3F611D"
+				type: "checkmark"
+				title: "Botania"
+			}]
+			rewards: [{
+				id: "7B2D2135D6C2C097"
+				type: "item"
+				item: {
+					id: "kubejs:botania_trophy"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
+		}
+	]
+	quest_links: [ ]
+}
