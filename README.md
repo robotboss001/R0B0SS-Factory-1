@@ -12,5 +12,11 @@ Minimum allocated RAM : 4-5Gb <br>
 Recommanded allocated RAM : 7-8Gb
 
 ## Modlist
+<details>
+  <summary>Example</summary>
 
+  ```
+  long console output here
+  ```
+</details
 
