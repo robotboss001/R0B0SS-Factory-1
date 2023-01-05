@@ -196,3 +196,4 @@ Recommanded allocated RAM : 7-8Gb
 </ul>
 </details
 
+## It is possible that there will be changes in the coming months because the modpack is in alpha!
