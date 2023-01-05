@@ -14,8 +14,6 @@ Recommanded allocated RAM : 7-8Gb
 ## Modlist
 <details>
   <summary>spoiler</summary>
-
-  ```
  <ul>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/packmenu">PackMenu (by Shadows_of_Fire)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/yungs-better-ocean-monuments">YUNG's Better Ocean Monuments (Forge) (by YUNGNICKYOUNG)</a></li>
@@ -196,6 +194,5 @@ Recommanded allocated RAM : 7-8Gb
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/libx">LibX (by noeppinoeppi)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/building-gadgets">Building Gadgets (by Direwolf20)</a></li>
 </ul>
-  ```
 </details
 
