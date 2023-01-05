@@ -7,8 +7,8 @@ The modpack is tech with a bit of adventure.
 where you can visit new dimension like the Twilight forest and automate the harvesting of your resources as well as your crafts. you can also at the end of the modpack craft creative items
  
  ## Recommendations
-This pack is not compatible with optifine
-Minimum allocated RAM : 4-5Gb
+This pack is not compatible with optifine <br>
+Minimum allocated RAM : 4-5Gb <br>
 Recommanded allocated RAM : 7-8Gb
 
 ## Modlist
