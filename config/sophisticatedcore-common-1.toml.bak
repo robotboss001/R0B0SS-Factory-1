@@ -1,0 +1,5 @@
+
+#Common Settings
+[common]
+	enabledItems = ["sophisticatedbackpacks:void_upgrade|true", "sophisticatedbackpacks:advanced_refill_upgrade|true", "sophisticatedbackpacks:compacting_upgrade|true", "sophisticatedbackpacks:advanced_restock_upgrade|true", "sophisticatedbackpacks:advanced_tool_swapper_upgrade|true", "sophisticatedbackpacks:diamond_backpack|true", "sophisticatedbackpacks:tank_upgrade|true", "sophisticatedbackpacks:auto_smoking_upgrade|true", "sophisticatedbackpacks:auto_blasting_upgrade|true", "sophisticatedbackpacks:smelting_upgrade|true", "sophisticatedbackpacks:battery_upgrade|true", "sophisticatedbackpacks:smoking_upgrade|true", "sophisticatedbackpacks:filter_upgrade|true", "sophisticatedbackpacks:magnet_upgrade|true", "sophisticatedbackpacks:advanced_magnet_upgrade|true", "sophisticatedbackpacks:blasting_upgrade|true", "sophisticatedbackpacks:deposit_upgrade|true"]
+

@@ -79,7 +79,7 @@ onEvent("rei.group", (event) => {
   );
 
   event.groupItems(
-    `ftbstoneblock:rei_groups/spawn_eggs`,
+    `r0b0ss:rei_groups/spawn_eggs`,
     `Spawn Eggs`,
     /.*spawn_egg/
   );

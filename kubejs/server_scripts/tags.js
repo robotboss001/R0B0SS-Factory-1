@@ -70,7 +70,8 @@ onEvent('tags.items', event => {
                              'create:crushed_iron_ore', 
                              'create:iron_sheet', 
                              'immersiveengineering:stick_iron', 
-                             'industrialforegoing:iron_gear'])
+                             'industrialforegoing:iron_gear',
+                             'immersiveengineering:slab_storage_lead'])
 })
 
 
@@ -92,5 +93,6 @@ onEvent('tags.blocks', event => {
                              'immersiveengineering:storage_silver', 
                              'immersiveengineering:raw_block_silver', 
                              'immersiveengineering:deepslate_ore_silver', 
-                             'immersiveengineering:ore_silver'])
+                             'immersiveengineering:ore_silver',
+                             'immersiveengineering:slab_storage_lead'])
 })
