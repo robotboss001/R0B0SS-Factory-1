@@ -1,5 +1,5 @@
 # R0B0SS-Factory-1's files
-
+## Curseforge: https://www.curseforge.com/minecraft/modpacks/robossfactory1
 
  ## Features 
 RMCMV1 is a modpack of 170 mods in 1.18.2, it has a quest book(coming soon).
@@ -15,7 +15,6 @@ Recommanded allocated RAM : 7-8Gb
 <details>
   <summary>spoiler</summary>
  <ul>
-<li><a href="https://www.curseforge.com/minecraft/mc-mods/packmenu">PackMenu (by Shadows_of_Fire)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/yungs-better-ocean-monuments">YUNG's Better Ocean Monuments (Forge) (by YUNGNICKYOUNG)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/framedblocks">FramedBlocks (by XFactHD)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks">Mouse Tweaks (by YaLTeR)</a></li>
