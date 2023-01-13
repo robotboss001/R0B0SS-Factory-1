@@ -1,4 +1,56 @@
 {
-  "entries": [],
-  "__comment": "Use the in-game commands to edit this file"
+  "entries": [
+    {
+      "item": "immersiveengineering:nugget_copper",
+      "emc": 0
+    },
+    {
+      "item": "cyclic:copper_nugget",
+      "emc": 0
+    },
+    {
+      "item": "tconstruct:copper_nugget",
+      "emc": 0
+    },
+    {
+      "item": "create:copper_nugget",
+      "emc": 0
+    },
+    {
+      "item": "thermal:bronze_dust",
+      "emc": 160
+    },
+    {
+      "item": "mekanism:block_bronze",
+      "emc": 0
+    },
+    {
+      "item": "mekanism:ingot_bronze",
+      "emc": 0
+    },
+    {
+      "item": "mekanism:nugget_bronze",
+      "emc": 0
+    },
+    {
+      "item": "mekanism:dust_bronze",
+      "emc": 0
+    },
+    {
+      "item": "thermal:netherite_dust",
+      "emc": 57339
+    },
+    {
+      "item": "tconstruct:netherite_nugget",
+      "emc": 0
+    },
+    {
+      "item": "mekanism:dust_netherite",
+      "emc": 0
+    },
+    {
+      "item": "cyclic:netherite_nugget",
+      "emc": 0
+    }
+  ]
 }

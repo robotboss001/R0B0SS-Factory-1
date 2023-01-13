@@ -14,9 +14,7 @@
 			"{data:{Count:1b,id:\"thermal:lead_dust\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
 			"{data:{Count:1b,id:\"thermal:lead_plate\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
 			"{data:{Count:1b,id:\"thermal:lead_nugget\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
-			"{data:{Count:1b,id:\"thermal:lead_gear\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
-			"{mode:\"NOON\",type:\"roughlyenoughitems:time\"}",
-			"{type:\"roughlyenoughitems:weather\",weather:\"CLEAR\"}"
+			"{data:{Count:1b,id:\"thermal:lead_gear\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}"
 		],
 		"hiddenFavorites": [],
 		"displayHistory": [],

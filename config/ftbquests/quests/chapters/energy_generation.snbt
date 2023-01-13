@@ -1,7 +1,7 @@
 {
 	id: "000000000000059D"
 	group: ""
-	order_index: 7
+	order_index: 8
 	filename: "energy_generation"
 	title: "Power Generation"
 	icon: "solarflux:sp_1"
@@ -353,7 +353,7 @@
 		{
 			title: "Reprocessor"
 			x: 5.5d
-			y: -8.0d
+			y: -9.0d
 			dependencies: [
 				"00000000000005BE"
 				"00000000000005CF"
@@ -412,7 +412,7 @@
 		{
 			title: "Blutonium Ingot"
 			x: 5.0d
-			y: -9.0d
+			y: -10.0d
 			dependencies: ["461BF5916B7E1E09"]
 			id: "4774CBC383455F4C"
 			tasks: [{
@@ -430,7 +430,7 @@
 		{
 			title: "Magentite Ingot"
 			x: 6.0d
-			y: -9.0d
+			y: -10.0d
 			dependencies: ["4774CBC383455F4C"]
 			id: "775C3FE5C0FCAE7B"
 			tasks: [{
@@ -443,6 +443,16 @@
 				id: "7749427C4F06C934"
 				type: "item"
 				item: "bigreactors:magentite_block"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -8.0d
+			id: "69FEEF86D0CC1EE9"
+			tasks: [{
+				id: "67851090592E7705"
+				type: "item"
+				item: "mekanismgenerators:turbine_blade"
 			}]
 		}
 	]

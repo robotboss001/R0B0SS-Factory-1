@@ -15,38 +15,55 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: -5.5d
-			y: -4.0d
+			x: -2.5d
+			y: -4.5d
 			id: "30832019D909C77A"
 			tasks: [{
 				id: "510D04A804E6F42D"
 				type: "item"
 				item: "ftbquests:book"
 			}]
+			rewards: [{
+				id: "0F857FD86549C6E8"
+				type: "item"
+				item: "roboss:miscellaneous_trophy"
+			}]
 		}
 		{
-			x: -3.5d
-			y: -2.0d
+			title: "Create"
+			icon: "create:crushing_wheel"
+			x: -4.5d
+			y: -3.5d
 			id: "06CDBD9C9DB8EEF8"
 			tasks: [{
-				id: "3190D10307B4B434"
+				id: "2367C07B6EE15270"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "2D19ADFBB7CCD8D1"
 				type: "item"
-				item: "create:crushing_wheel"
+				item: "roboss:create_trophy"
+			}]
+		}
+		{
+			title: "Mekanism"
+			icon: "mekanism:quantum_entangloporter"
+			x: -2.5d
+			y: -3.5d
+			id: "3252255A365BA1CA"
+			tasks: [{
+				id: "24AD8BC99EB05A22"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "62C432863B7B63E5"
+				type: "item"
+				item: "roboss:mekanism_trophy"
 			}]
 		}
 		{
 			x: -5.5d
-			y: 0.0d
-			id: "3252255A365BA1CA"
-			tasks: [{
-				id: "697D3999A07F4F19"
-				type: "item"
-				item: "mekanism:quantum_entangloporter"
-			}]
-		}
-		{
-			x: -4.0d
-			y: 0.0d
+			y: -4.5d
 			id: "2FC9DD2BC364D083"
 			tasks: [{
 				id: "42E6C24EA5DA9745"
@@ -59,10 +76,15 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "41556F7D2B654DAB"
+				type: "item"
+				item: "roboss:thermal_trophy"
+			}]
 		}
 		{
-			x: -1.0d
-			y: 0.5d
+			x: -3.5d
+			y: -4.5d
 			id: "5FFA7A7E765D2B0C"
 			tasks: [{
 				id: "33E2DBA254A49C91"
@@ -75,10 +97,15 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "2271F4B71C95E4D4"
+				type: "item"
+				item: "roboss:rftools_trophy"
+			}]
 		}
 		{
-			x: -4.5d
-			y: 1.0d
+			x: -0.5d
+			y: -4.0d
 			id: "14623E0A92964F40"
 			tasks: [{
 				id: "7EF70D07D2C209E9"
@@ -93,77 +120,27 @@
 			}]
 		}
 		{
-			x: -7.0d
-			y: -0.5d
+			title: "Power generation"
+			icon: "solarflux:sp_1"
+			x: -6.5d
+			y: -4.5d
 			id: "332FFEC02948D74B"
 			tasks: [{
-				id: "0AB6A52158979DDB"
-				type: "item"
-				item: {
-					id: "solarflux:sp_1"
-					Count: 1b
-					ForgeCaps: {
-						"customnpcs:itemscripteddata": { }
-					}
-				}
-			}]
-		}
-		{
-			x: -11.0d
-			y: 0.5d
-			id: "4D464E8B87E9B5AD"
-			tasks: [{
-				id: "633FA3817B4AC16E"
-				type: "item"
-				item: {
-					id: "projecte:philosophers_stone"
-					Count: 1b
-					tag: { }
-					ForgeCaps: {
-						Parent: { }
-						"customnpcs:itemscripteddata": { }
-					}
-				}
+				id: "7AE42AD667177543"
+				type: "checkmark"
 			}]
 			rewards: [{
-				id: "6C338359C92F9B73"
+				id: "4C4EE61397F1A989"
 				type: "item"
-				item: {
-					id: "kubejs:projecte_trophy"
-					Count: 1b
-					ForgeCaps: {
-						"customnpcs:itemscripteddata": { }
-					}
-				}
-			}]
-		}
-		{
-			x: -11.5d
-			y: 3.5d
-			id: "15C406BDE0011C09"
-			tasks: [{
-				id: "68B7B3F8184194C0"
-				type: "item"
-				item: {
-					id: "extendedcrafting:ultimate_table"
-					Count: 1b
-					ForgeCaps: {
-						"customnpcs:itemscripteddata": { }
-					}
-				}
+				item: "roboss:powergen_trophy"
 			}]
 		}
 		{
 			title: "Applied Energistics 2"
-			icon: {
-				id: "appliedenergistics2:controller"
-				Count: 1b
-				ForgeCaps: {
-					"customnpcs:itemscripteddata": { }
-				}
-			}
-			x: 5.5d
-			y: 1.0d
+			icon: "ae2:controller"
+			x: -4.5d
+			y: -4.5d
+			dependencies: ["00000000000000B8"]
 			id: "05A5AEB405FEEB3D"
 			tasks: [{
 				id: "25E86A65823C7B6C"
@@ -171,20 +148,15 @@
 				title: "applied energistics 2"
 			}]
 			rewards: [{
-				id: "6D04941234C6D285"
+				id: "529B76776DEC71CA"
 				type: "item"
-				item: {
-					id: "kubejs:ae2_trophy"
-					Count: 1b
-					ForgeCaps: {
-						"customnpcs:itemscripteddata": { }
-					}
-				}
+				item: "roboss:ae2_trophy"
 			}]
 		}
 		{
-			x: 5.5d
-			y: 0.0d
+			icon: "twilightforest:twilight_portal_miniature_structure"
+			x: -6.5d
+			y: -3.5d
 			id: "66F87A8E9A9A2587"
 			tasks: [{
 				id: "59CFD72A83BCEE88"
@@ -192,58 +164,92 @@
 				title: "Twilight Forest"
 			}]
 			rewards: [{
-				id: "5532C9E96079184A"
+				id: "1128AFADF82C4123"
 				type: "item"
-				item: {
-					id: "kubejs:twilightforest_trophy"
-					Count: 1b
-					ForgeCaps: {
-						"customnpcs:itemscripteddata": { }
-					}
-				}
+				item: "roboss:twilightforest_trophy"
 			}]
 		}
 		{
-			title: "Astral Sorcery"
-			x: 5.5d
-			y: -1.5d
-			id: "41586AFF13701D7B"
+			icon: {
+				id: "projecte:philosophers_stone"
+				Count: 1b
+				tag: { }
+				ForgeCaps: {
+					Parent: { }
+				}
+			}
+			x: -1.5d
+			y: -4.5d
+			id: "0684A94501C53B51"
 			tasks: [{
-				id: "6F090E2B8C57AA8D"
+				id: "691783CFF880E984"
 				type: "checkmark"
-				title: "astral sorcelry"
+				title: "Project E"
 			}]
 			rewards: [{
-				id: "33EC8B324BAED93E"
+				id: "6AA2079200CD8927"
 				type: "item"
-				item: {
-					id: "kubejs:astralsorcery_trophy"
-					Count: 1b
-					ForgeCaps: {
-						"customnpcs:itemscripteddata": { }
-					}
-				}
+				item: "roboss:projecte_trophy"
 			}]
 		}
 		{
-			x: 5.5d
-			y: 2.5d
-			id: "181980836F84147B"
+			icon: "botania:natura_pylon"
+			x: -5.5d
+			y: -3.5d
+			id: "2D4B71EFA1A42100"
 			tasks: [{
-				id: "6D21CFF5FC3F611D"
+				id: "7911FEE682B29471"
 				type: "checkmark"
 				title: "Botania"
 			}]
 			rewards: [{
-				id: "7B2D2135D6C2C097"
+				id: "51A72461D9943577"
 				type: "item"
-				item: {
-					id: "kubejs:botania_trophy"
-					Count: 1b
-					ForgeCaps: {
-						"customnpcs:itemscripteddata": { }
-					}
+				item: "roboss:botania_trophy"
+			}]
+		}
+		{
+			icon: "extendedcrafting:ultimate_table"
+			x: -3.5d
+			y: -3.5d
+			id: "0C2672997483434C"
+			tasks: [{
+				id: "37CA20C7BC75B5B3"
+				type: "checkmark"
+				title: "Extended crafting"
+			}]
+			rewards: [{
+				id: "466811C9F9E8AB37"
+				type: "item"
+				item: "roboss:extendedcrafting_trophy"
+			}]
+		}
+		{
+			icon: {
+				id: "immersiveengineering:hammer"
+				Count: 1b
+				tag: {
+					Damage: 0
 				}
+			}
+			x: -1.5d
+			y: -3.5d
+			id: "33BAF0BC4AF6FA30"
+			tasks: [{
+				id: "056D19C7B3467D23"
+				type: "checkmark"
+				title: "Immersive Engeneering"
+			}]
+		}
+		{
+			icon: "extendedcrafting:the_ultimate_ingot"
+			x: -7.5d
+			y: -4.0d
+			id: "2405656810888D7B"
+			tasks: [{
+				id: "452AC3011D5197A8"
+				type: "checkmark"
+				title: "End Game"
 			}]
 		}
 	]

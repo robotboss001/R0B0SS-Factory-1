@@ -1,7 +1,7 @@
 {
 	id: "17817A4DC532E2EC"
 	group: ""
-	order_index: 6
+	order_index: 7
 	filename: "upgrate_netherite"
 	title: "upgrate netherite"
 	icon: "upgradednetherite_ultimate:ultimate_upgraded_netherite_ingot"
@@ -101,6 +101,7 @@
 		{
 			x: 0.0d
 			y: 0.0d
+			shape: "hexagon"
 			dependencies: [
 				"65078374DED7CBC4"
 				"448869EEFB05367F"

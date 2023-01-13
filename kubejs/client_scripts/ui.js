@@ -1,6 +1,6 @@
 onEvent("ui.main_menu", (event) => {
   event.replace((ui) => {
-    ui.fillBackground("r0b0ss:textures/ui/bg.png", 1600, 837);
+    ui.fillBackground("roboss:textures/ui/bg.png", 1920, 991);
 
 
     // Pack logo
@@ -9,7 +9,7 @@ onEvent("ui.main_menu", (event) => {
       i.width = 1000 * 0.00123 * ui.h;
       i.x = ui.width / 2 - i.width / 2;
       i.y = ui.height * 0.07;
-      i.texture = "r0b0ss:textures/ui/logo.png";
+      i.texture = "roboss:textures/ui/logo.png";
     });
  
 
@@ -19,8 +19,8 @@ onEvent("ui.main_menu", (event) => {
       i.width = 2000 * 0.000255 * ui.h;
       i.x = ui.width / 2 - i.width - 1;
       i.y = ui.height - i.height - ui.height * 0.13;
-      i.texture = "r0b0ss:textures/ui/button/sp.png";
-      i.hoverTexture = "r0b0ss:textures/ui/button/sp_hover.png";
+      i.texture = "roboss:textures/ui/button/sp.png";
+      i.hoverTexture = "roboss:textures/ui/button/sp_hover.png";
       i.action = "minecraft:singleplayer";
     });
 
@@ -30,8 +30,8 @@ onEvent("ui.main_menu", (event) => {
       i.width = 2000 * 0.000255 * ui.h;
       i.x = ui.width / 2;
       i.y = ui.height - i.height - ui.height * 0.13;
-      i.texture = "r0b0ss:textures/ui/button/mp.png";
-      i.hoverTexture = "r0b0ss:textures/ui/button/mp_hover.png";
+      i.texture = "roboss:textures/ui/button/mp.png";
+      i.hoverTexture = "roboss:textures/ui/button/mp_hover.png";
       i.action = "minecraft:multiplayer";
     });
 
@@ -46,8 +46,8 @@ onEvent("ui.main_menu", (event) => {
       i.width = lw;
       i.x = ui.width / 2 - lw * 3.0 - i.w;
       i.y = ly;
-      i.texture = "r0b0ss:textures/ui/button/lang.png";
-      i.hoverTexture = "r0b0ss:textures/ui/button/lang_hover.png";
+      i.texture = "roboss:textures/ui/button/lang.png";
+      i.hoverTexture = "roboss:textures/ui/button/lang_hover.png";
       i.action = "minecraft:language";
     });
 
@@ -57,8 +57,8 @@ onEvent("ui.main_menu", (event) => {
       i.width = lw * 3.0;
       i.x = ui.width / 2 - i.width - 1;
       i.y = ly;
-      i.texture = "r0b0ss:textures/ui/button/mods.png";
-      i.hoverTexture = "r0b0ss:textures/ui/button/mods_hover.png";
+      i.texture = "roboss:textures/ui/button/mods.png";
+      i.hoverTexture = "roboss:textures/ui/button/mods_hover.png";
       i.action = "forge:mod_list";
     });
 
@@ -68,8 +68,8 @@ onEvent("ui.main_menu", (event) => {
       i.width = lw * 3.0;
       i.x = ui.width / 2 + 1;
       i.y = ly ;
-      i.texture = "r0b0ss:textures/ui/button/options.png";
-      i.hoverTexture = "r0b0ss:textures/ui/button/options_hover.png";
+      i.texture = "roboss:textures/ui/button/options.png";
+      i.hoverTexture = "roboss:textures/ui/button/options_hover.png";
       i.action = "minecraft:options";
     });
 
@@ -79,8 +79,8 @@ onEvent("ui.main_menu", (event) => {
       i.width = lw;
       i.x = ui.width / 2 + lw * 3.0 + 1;
       i.y = ly;
-      i.texture = "r0b0ss:textures/ui/button/exit.png";
-      i.hoverTexture = "r0b0ss:textures/ui/button/exit_hover.png";
+      i.texture = "roboss:textures/ui/button/exit.png";
+      i.hoverTexture = "roboss:textures/ui/button/exit_hover.png";
       i.action = "minecraft:quit";
     });
 

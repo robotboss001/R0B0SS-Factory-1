@@ -1,7 +1,7 @@
 {
 	id: "0000000000000371"
 	group: ""
-	order_index: 8
+	order_index: 9
 	filename: "botania"
 	title: "Botania"
 	icon: "botania:natura_pylon"
@@ -95,6 +95,7 @@
 			title: "Basic Runes"
 			x: 10.0d
 			y: -1.5d
+			dependencies: ["00000000000003F7"]
 			id: "00000000000003A2"
 			tasks: [
 				{

@@ -1,6 +1,6 @@
 onEvent('recipes', e => {
 
-    e.remove({id: 'twilightforest:uncrafting_table'})
+    e.remove({id:'twilightforest:uncrafting_table'})
     e.remove({id:'cyclic:uncrafter'})
 
     //lead
@@ -44,7 +44,12 @@ onEvent('recipes', e => {
     //copper
 
     //bronze
-
+    e.remove({id:'mekanism:storage_blocks/bronze'})
+    e.remove({id:'mekanism:processing/bronze/ingot/from_block'})
+    e.remove({id:'mekanism:processing/bronze/ingot/from_nuggets'})
+    e.remove({id:'mekanism:processing/bronze/ingot/from_dust_smelting'})
+    e.remove({id:'mekanism:processing/bronze/ingot/from_dust_blasting'})
+    e.remove({id:'mekanism:nuggets/bronze'})
     //silver
 
     //steel

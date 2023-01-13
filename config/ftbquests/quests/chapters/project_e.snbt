@@ -1,7 +1,7 @@
 {
 	id: "3D7606CCC3AA3984"
 	group: ""
-	order_index: 11
+	order_index: 12
 	filename: "project_e"
 	title: "Project E"
 	icon: {
@@ -268,12 +268,12 @@
 			tasks: [{
 				id: "1A4875CEF3C95DFE"
 				type: "item"
-				item: "projectex:magenta_matter"
+				item: "extendedexchange:magenta_matter"
 			}]
 			rewards: [{
 				id: "6F0327FECFA14636"
 				type: "item"
-				item: "projectex:magenta_matter"
+				item: "extendedexchange:magenta_matter"
 			}]
 		}
 		{
@@ -284,12 +284,12 @@
 			tasks: [{
 				id: "25CCA90909B0C751"
 				type: "item"
-				item: "projectex:pink_matter"
+				item: "extendedexchange:pink_matter"
 			}]
 			rewards: [{
 				id: "1DE7ED35A426F82D"
 				type: "item"
-				item: "projectex:pink_matter"
+				item: "extendedexchange:pink_matter"
 			}]
 		}
 		{
@@ -300,12 +300,12 @@
 			tasks: [{
 				id: "387789D6B49DF467"
 				type: "item"
-				item: "projectex:purple_matter"
+				item: "extendedexchange:purple_matter"
 			}]
 			rewards: [{
 				id: "1B21CE0BC38C9A0D"
 				type: "item"
-				item: "projectex:purple_matter"
+				item: "extendedexchange:purple_matter"
 			}]
 		}
 		{
@@ -316,12 +316,12 @@
 			tasks: [{
 				id: "7E10DFD4D48C4D82"
 				type: "item"
-				item: "projectex:violet_matter"
+				item: "extendedexchange:violet_matter"
 			}]
 			rewards: [{
 				id: "5A7E430135A6C54F"
 				type: "item"
-				item: "projectex:violet_matter"
+				item: "extendedexchange:violet_matter"
 			}]
 		}
 		{
@@ -332,12 +332,12 @@
 			tasks: [{
 				id: "3774C6A20456ABCF"
 				type: "item"
-				item: "projectex:blue_matter"
+				item: "extendedexchange:blue_matter"
 			}]
 			rewards: [{
 				id: "707896C51459F56B"
 				type: "item"
-				item: "projectex:blue_matter"
+				item: "extendedexchange:blue_matter"
 			}]
 		}
 		{
@@ -348,12 +348,12 @@
 			tasks: [{
 				id: "6F4DC1A880F1F538"
 				type: "item"
-				item: "projectex:cyan_matter"
+				item: "extendedexchange:cyan_matter"
 			}]
 			rewards: [{
 				id: "6BF619E3D9071651"
 				type: "item"
-				item: "projectex:cyan_matter"
+				item: "extendedexchange:cyan_matter"
 			}]
 		}
 		{
@@ -364,12 +364,12 @@
 			tasks: [{
 				id: "5A5FDC9EE69B8D3F"
 				type: "item"
-				item: "projectex:green_matter"
+				item: "extendedexchange:green_matter"
 			}]
 			rewards: [{
 				id: "55C35FA108011390"
 				type: "item"
-				item: "projectex:green_matter"
+				item: "extendedexchange:green_matter"
 			}]
 		}
 		{
@@ -380,12 +380,12 @@
 			tasks: [{
 				id: "030ADB829EA6F3C4"
 				type: "item"
-				item: "projectex:lime_matter"
+				item: "extendedexchange:lime_matter"
 			}]
 			rewards: [{
 				id: "7D6A32157BA6433B"
 				type: "item"
-				item: "projectex:lime_matter"
+				item: "extendedexchange:lime_matter"
 			}]
 		}
 		{
@@ -396,12 +396,12 @@
 			tasks: [{
 				id: "06A6252DC6A763A2"
 				type: "item"
-				item: "projectex:yellow_matter"
+				item: "extendedexchange:yellow_matter"
 			}]
 			rewards: [{
 				id: "7F4C24A6E5368F1D"
 				type: "item"
-				item: "projectex:yellow_matter"
+				item: "extendedexchange:yellow_matter"
 			}]
 		}
 		{
@@ -412,12 +412,12 @@
 			tasks: [{
 				id: "2D8BF16520532B46"
 				type: "item"
-				item: "projectex:orange_matter"
+				item: "extendedexchange:orange_matter"
 			}]
 			rewards: [{
 				id: "06301EF734A10DC8"
 				type: "item"
-				item: "projectex:orange_matter"
+				item: "extendedexchange:orange_matter"
 			}]
 		}
 		{
@@ -428,12 +428,12 @@
 			tasks: [{
 				id: "7B3A6D7D1D1C2915"
 				type: "item"
-				item: "projectex:white_matter"
+				item: "extendedexchange:white_matter"
 			}]
 			rewards: [{
 				id: "161D5210E1DEF470"
 				type: "item"
-				item: "projectex:white_matter"
+				item: "extendedexchange:white_matter"
 			}]
 		}
 		{
@@ -444,12 +444,12 @@
 			tasks: [{
 				id: "6CF6EC11807A2778"
 				type: "item"
-				item: "projectex:fading_matter"
+				item: "extendedexchange:fading_matter"
 			}]
 			rewards: [{
 				id: "51DF2E845EF24D6B"
 				type: "item"
-				item: "projectex:fading_matter"
+				item: "extendedexchange:fading_matter"
 			}]
 		}
 		{
@@ -462,12 +462,12 @@
 				{
 					id: "2F718BF77E653158"
 					type: "item"
-					item: "projectex:basic_collector"
+					item: "extendedexchange:basic_collector"
 				}
 				{
 					id: "1A07835A11C0E66F"
 					type: "item"
-					item: "projectex:basic_relay"
+					item: "extendedexchange:basic_relay"
 				}
 			]
 			rewards: [{
@@ -486,12 +486,12 @@
 				{
 					id: "1252671D168BA32B"
 					type: "item"
-					item: "projectex:dark_collector"
+					item: "extendedexchange:dark_collector"
 				}
 				{
 					id: "319F555273582277"
 					type: "item"
-					item: "projectex:dark_relay"
+					item: "extendedexchange:dark_relay"
 				}
 			]
 			rewards: [{
@@ -510,12 +510,12 @@
 				{
 					id: "683721B3E2D19DDD"
 					type: "item"
-					item: "projectex:red_collector"
+					item: "extendedexchange:red_collector"
 				}
 				{
 					id: "69DA6807DB2C64DD"
 					type: "item"
-					item: "projectex:red_relay"
+					item: "extendedexchange:red_relay"
 				}
 			]
 			rewards: [{
@@ -534,18 +534,18 @@
 				{
 					id: "0015D4332C0E744A"
 					type: "item"
-					item: "projectex:magenta_collector"
+					item: "extendedexchange:magenta_collector"
 				}
 				{
 					id: "143102A5332B0022"
 					type: "item"
-					item: "projectex:magenta_relay"
+					item: "extendedexchange:magenta_relay"
 				}
 			]
 			rewards: [{
 				id: "50DFE6C8846D2BC9"
 				type: "item"
-				item: "projectex:magenta_matter"
+				item: "extendedexchange:magenta_matter"
 			}]
 		}
 		{
@@ -558,18 +558,18 @@
 				{
 					id: "0B0DC1351056E592"
 					type: "item"
-					item: "projectex:pink_collector"
+					item: "extendedexchange:pink_collector"
 				}
 				{
 					id: "4FAA52D0507CD194"
 					type: "item"
-					item: "projectex:pink_relay"
+					item: "extendedexchange:pink_relay"
 				}
 			]
 			rewards: [{
 				id: "1AEA043F77C0639C"
 				type: "item"
-				item: "projectex:pink_matter"
+				item: "extendedexchange:pink_matter"
 			}]
 		}
 		{
@@ -582,18 +582,18 @@
 				{
 					id: "64980C27E7780B98"
 					type: "item"
-					item: "projectex:purple_collector"
+					item: "extendedexchange:purple_collector"
 				}
 				{
 					id: "3033BFD2E657B133"
 					type: "item"
-					item: "projectex:purple_relay"
+					item: "extendedexchange:purple_relay"
 				}
 			]
 			rewards: [{
 				id: "256A091D5D9FBA0F"
 				type: "item"
-				item: "projectex:purple_matter"
+				item: "extendedexchange:purple_matter"
 			}]
 		}
 		{
@@ -606,18 +606,18 @@
 				{
 					id: "2FA02299BD4DB62A"
 					type: "item"
-					item: "projectex:violet_collector"
+					item: "extendedexchange:violet_collector"
 				}
 				{
 					id: "789DD024F5283CCF"
 					type: "item"
-					item: "projectex:violet_relay"
+					item: "extendedexchange:violet_relay"
 				}
 			]
 			rewards: [{
 				id: "16979F8D1D415D89"
 				type: "item"
-				item: "projectex:violet_matter"
+				item: "extendedexchange:violet_matter"
 			}]
 		}
 		{
@@ -630,18 +630,18 @@
 				{
 					id: "251F9C4F2A4D437D"
 					type: "item"
-					item: "projectex:blue_collector"
+					item: "extendedexchange:blue_collector"
 				}
 				{
 					id: "1EF7480CB966428E"
 					type: "item"
-					item: "projectex:blue_relay"
+					item: "extendedexchange:blue_relay"
 				}
 			]
 			rewards: [{
 				id: "296663FC1F8CE11A"
 				type: "item"
-				item: "projectex:blue_matter"
+				item: "extendedexchange:blue_matter"
 			}]
 		}
 		{
@@ -654,18 +654,18 @@
 				{
 					id: "0DA3C84DC7660138"
 					type: "item"
-					item: "projectex:cyan_collector"
+					item: "extendedexchange:cyan_collector"
 				}
 				{
 					id: "3F2C430D9631AD0E"
 					type: "item"
-					item: "projectex:cyan_relay"
+					item: "extendedexchange:cyan_relay"
 				}
 			]
 			rewards: [{
 				id: "3CAE7716EE82D5CD"
 				type: "item"
-				item: "projectex:cyan_matter"
+				item: "extendedexchange:cyan_matter"
 			}]
 		}
 		{
@@ -678,18 +678,18 @@
 				{
 					id: "25CA6883FF49E873"
 					type: "item"
-					item: "projectex:green_collector"
+					item: "extendedexchange:green_collector"
 				}
 				{
 					id: "3B175C4336B15033"
 					type: "item"
-					item: "projectex:green_relay"
+					item: "extendedexchange:green_relay"
 				}
 			]
 			rewards: [{
 				id: "6A097EC5869F6B37"
 				type: "item"
-				item: "projectex:green_matter"
+				item: "extendedexchange:green_matter"
 			}]
 		}
 		{
@@ -702,18 +702,18 @@
 				{
 					id: "6723FBF4322A42B0"
 					type: "item"
-					item: "projectex:lime_collector"
+					item: "extendedexchange:lime_collector"
 				}
 				{
 					id: "170867EF364170BB"
 					type: "item"
-					item: "projectex:lime_relay"
+					item: "extendedexchange:lime_relay"
 				}
 			]
 			rewards: [{
 				id: "02C7F22F59171D53"
 				type: "item"
-				item: "projectex:lime_matter"
+				item: "extendedexchange:lime_matter"
 			}]
 		}
 		{
@@ -726,18 +726,18 @@
 				{
 					id: "5852EDFA7ADAD3FA"
 					type: "item"
-					item: "projectex:yellow_collector"
+					item: "extendedexchange:yellow_collector"
 				}
 				{
 					id: "0B9C3D137472EE58"
 					type: "item"
-					item: "projectex:yellow_relay"
+					item: "extendedexchange:yellow_relay"
 				}
 			]
 			rewards: [{
 				id: "62AC7B1BCA6D4FF2"
 				type: "item"
-				item: "projectex:yellow_matter"
+				item: "extendedexchange:yellow_matter"
 			}]
 		}
 		{
@@ -750,18 +750,18 @@
 				{
 					id: "400D8CF80DF22E64"
 					type: "item"
-					item: "projectex:orange_collector"
+					item: "extendedexchange:orange_collector"
 				}
 				{
 					id: "38397249DDEEA6B3"
 					type: "item"
-					item: "projectex:orange_relay"
+					item: "extendedexchange:orange_relay"
 				}
 			]
 			rewards: [{
 				id: "595A267BCBF1F537"
 				type: "item"
-				item: "projectex:orange_matter"
+				item: "extendedexchange:orange_matter"
 			}]
 		}
 		{
@@ -774,18 +774,18 @@
 				{
 					id: "4561D8A8378E0033"
 					type: "item"
-					item: "projectex:white_collector"
+					item: "extendedexchange:white_collector"
 				}
 				{
 					id: "63012D3A14F1564F"
 					type: "item"
-					item: "projectex:white_relay"
+					item: "extendedexchange:white_relay"
 				}
 			]
 			rewards: [{
 				id: "4BD7DB1FC0227BE7"
 				type: "item"
-				item: "projectex:white_matter"
+				item: "extendedexchange:white_matter"
 			}]
 		}
 		{
@@ -798,18 +798,18 @@
 				{
 					id: "2436C9854284FD66"
 					type: "item"
-					item: "projectex:fading_collector"
+					item: "extendedexchange:fading_collector"
 				}
 				{
 					id: "2D15431E4508E30E"
 					type: "item"
-					item: "projectex:fading_relay"
+					item: "extendedexchange:fading_relay"
 				}
 			]
 			rewards: [{
 				id: "2682E501A07AC11C"
 				type: "item"
-				item: "projectex:fading_matter"
+				item: "extendedexchange:fading_matter"
 			}]
 		}
 		{
@@ -822,29 +822,29 @@
 				{
 					id: "40B96D859D882FC9"
 					type: "item"
-					item: "projectex:final_collector"
+					item: "extendedexchange:final_collector"
 				}
 				{
 					id: "002202C5191D7653"
 					type: "item"
-					item: "projectex:final_relay"
+					item: "extendedexchange:final_relay"
 				}
 			]
 			rewards: [
 				{
 					id: "56EBFDCDEF9E3648"
 					type: "item"
-					item: "projectex:fading_matter"
+					item: "extendedexchange:fading_matter"
 				}
 				{
 					id: "72B510F8D7719482"
 					type: "item"
-					item: "projectex:fading_matter"
+					item: "extendedexchange:fading_matter"
 				}
 				{
 					id: "4E2A6D7FF13E8B85"
 					type: "item"
-					item: "projectex:fading_matter"
+					item: "extendedexchange:fading_matter"
 				}
 			]
 		}
@@ -856,12 +856,12 @@
 			tasks: [{
 				id: "1ECC98F831E21108"
 				type: "item"
-				item: "projectex:final_star"
+				item: "extendedexchange:final_star"
 			}]
 			rewards: [{
 				id: "4653B635B3D79FFC"
 				type: "item"
-				item: "projectex:final_star_shard"
+				item: "extendedexchange:final_star_shard"
 			}]
 		}
 		{
@@ -872,7 +872,7 @@
 			tasks: [{
 				id: "4E5B927A011DAC85"
 				type: "item"
-				item: "projectex:final_power_flower"
+				item: "extendedexchange:final_power_flower"
 			}]
 			rewards: [{
 				id: "43A63685DA468C0F"

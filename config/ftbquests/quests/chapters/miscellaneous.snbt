@@ -39,8 +39,10 @@
 				}
 			]
 			rewards: [{
-				id: "066BE31BA7E05F7D"
+				id: "1AF1C7A6C91BD64C"
 				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6352993187007078229L
 			}]
 		}
 		{
@@ -83,9 +85,9 @@
 				item: "ironchest:copper_chest"
 			}]
 			rewards: [{
-				id: "12062B74AE94532F"
+				id: "267F7AA0B48782AA"
 				type: "item"
-				item: "thermal:copper_block"
+				item: "minecraft:copper_block"
 			}]
 		}
 		{
@@ -147,6 +149,12 @@
 				type: "item"
 				item: "ironchest:crystal_chest"
 			}]
+			rewards: [{
+				id: "5B0B787686AC3C64"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6352993187007078229L
+			}]
 		}
 		{
 			x: -5.5d
@@ -157,6 +165,12 @@
 				id: "56C1E7C32A939DCF"
 				type: "item"
 				item: "ironchest:obsidian_chest"
+			}]
+			rewards: [{
+				id: "47E9FCC1EA985AC4"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6352993187007078229L
 			}]
 		}
 		{
@@ -557,9 +571,9 @@
 				item: "simplyjetpacks:jetpack_ie1"
 			}]
 			rewards: [{
-				id: "7148B42339141A3F"
+				id: "10CE4865C993F9CC"
 				type: "item"
-				item: "thermal:copper_ingot"
+				item: "minecraft:copper_ingot"
 				count: 8
 			}]
 		}
@@ -1147,6 +1161,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "1DD451A5B67C1BB5"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6352993187007078229L
+			}]
 		}
 		{
 			x: -2.0d
@@ -1162,6 +1182,12 @@
 						"customnpcs:itemscripteddata": { }
 					}
 				}
+			}]
+			rewards: [{
+				id: "7C406F37D60C1133"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6352993187007078229L
 			}]
 		}
 		{

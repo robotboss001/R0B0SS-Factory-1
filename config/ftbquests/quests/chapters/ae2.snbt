@@ -1,7 +1,7 @@
 {
 	id: "00000000000000B8"
 	group: ""
-	order_index: 9
+	order_index: 10
 	filename: "ae2"
 	title: "Applied Energistics 2"
 	icon: "ae2:controller"
@@ -21,7 +21,7 @@
 		}
 		{
 			x: -1.5d
-			y: 3.5d
+			y: 4.0d
 			dependencies: ["25BFA5ECD664D8BF"]
 			id: "5F088A212BF457F0"
 			tasks: [{
@@ -32,7 +32,7 @@
 		}
 		{
 			x: -0.5d
-			y: 3.5d
+			y: 4.0d
 			dependencies: ["25BFA5ECD664D8BF"]
 			id: "54B2777FEE120094"
 			tasks: [{
@@ -43,7 +43,7 @@
 		}
 		{
 			x: 1.5d
-			y: 3.5d
+			y: 4.0d
 			dependencies: ["25BFA5ECD664D8BF"]
 			id: "2081DDD1A5BCE61F"
 			tasks: [{
@@ -54,7 +54,7 @@
 		}
 		{
 			x: 0.5d
-			y: 3.5d
+			y: 4.0d
 			dependencies: ["25BFA5ECD664D8BF"]
 			id: "1D7E50F6502249F0"
 			tasks: [{
@@ -65,7 +65,7 @@
 		}
 		{
 			x: -1.5d
-			y: 2.0d
+			y: 2.5d
 			dependencies: ["5F088A212BF457F0"]
 			id: "363D88627DB36C93"
 			tasks: [{
@@ -76,7 +76,7 @@
 		}
 		{
 			x: -0.5d
-			y: 2.0d
+			y: 2.5d
 			dependencies: ["54B2777FEE120094"]
 			id: "67CD0A4AC9F9AE92"
 			tasks: [{
@@ -87,7 +87,7 @@
 		}
 		{
 			x: 1.5d
-			y: 2.0d
+			y: 2.5d
 			dependencies: ["2081DDD1A5BCE61F"]
 			id: "0E21C9A7C5332FB8"
 			tasks: [{
@@ -98,7 +98,7 @@
 		}
 		{
 			x: 0.5d
-			y: 2.0d
+			y: 2.5d
 			dependencies: ["1D7E50F6502249F0"]
 			id: "00F2CF424A12D7C4"
 			tasks: [{
@@ -109,7 +109,7 @@
 		}
 		{
 			x: 1.0d
-			y: 1.0d
+			y: 1.5d
 			dependencies: [
 				"0E21C9A7C5332FB8"
 				"00F2CF424A12D7C4"
@@ -123,7 +123,7 @@
 		}
 		{
 			x: -1.0d
-			y: 1.0d
+			y: 1.5d
 			dependencies: [
 				"363D88627DB36C93"
 				"67CD0A4AC9F9AE92"
@@ -138,7 +138,7 @@
 		}
 		{
 			x: 0.0d
-			y: 1.0d
+			y: 1.5d
 			dependencies: [
 				"00F2CF424A12D7C4"
 				"67CD0A4AC9F9AE92"
@@ -152,7 +152,7 @@
 		}
 		{
 			x: 0.0d
-			y: 5.0d
+			y: 5.5d
 			id: "25BFA5ECD664D8BF"
 			tasks: [{
 				id: "6EBE5C6A9640F923"
@@ -610,6 +610,7 @@
 		{
 			x: 3.5d
 			y: -2.5d
+			dependencies: ["5C9B7B1F2C800820"]
 			id: "51CE72AF229D3DBE"
 			tasks: [{
 				id: "4EF044A0F489F0F0"
@@ -624,6 +625,7 @@
 		{
 			x: 4.5d
 			y: -2.5d
+			dependencies: ["5C9B7B1F2C800820"]
 			id: "0DCA01158DBB81EA"
 			tasks: [{
 				id: "18DB4FF8FF8AA598"
@@ -638,6 +640,7 @@
 		{
 			x: 5.5d
 			y: -2.5d
+			dependencies: ["5C9B7B1F2C800820"]
 			id: "347FB57457EA8211"
 			tasks: [{
 				id: "30E7E8F3A151C9DD"
@@ -647,6 +650,241 @@
 					Count: 1b
 					tag: { }
 				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.5d
+			dependencies: ["51CE72AF229D3DBE"]
+			id: "0A5702DB50CA7F37"
+			tasks: [{
+				id: "6C4867A08C630EDF"
+				type: "item"
+				item: {
+					id: "ae2:fluid_storage_cell_4k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: -1.5d
+			dependencies: ["347FB57457EA8211"]
+			id: "5E0AA1E9B49BA07B"
+			tasks: [{
+				id: "4EC3EC22DD712D83"
+				type: "item"
+				item: {
+					id: "ae2things:disk_drive_4k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: -1.5d
+			dependencies: ["0DCA01158DBB81EA"]
+			id: "2FF84E187C25174C"
+			tasks: [{
+				id: "2241169BF31742EC"
+				type: "item"
+				item: {
+					id: "appmek:chemical_storage_cell_4k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: -0.5d
+			dependencies: ["0A5702DB50CA7F37"]
+			id: "5EB003E32FF350FF"
+			tasks: [{
+				id: "5F342A9F1D8BFDA8"
+				type: "item"
+				item: {
+					id: "ae2:fluid_storage_cell_16k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.5d
+			dependencies: ["5EB003E32FF350FF"]
+			id: "7969A1A63E17D31E"
+			tasks: [{
+				id: "4EE9F04B90B1B224"
+				type: "item"
+				item: {
+					id: "ae2:fluid_storage_cell_64k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.5d
+			dependencies: ["7969A1A63E17D31E"]
+			id: "7E0629F8938177AE"
+			tasks: [{
+				id: "1264CF4756BF1ECA"
+				type: "item"
+				item: {
+					id: "ae2:fluid_storage_cell_256k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: -0.5d
+			dependencies: ["2FF84E187C25174C"]
+			id: "586DB2581BE0ECF5"
+			tasks: [{
+				id: "0B24B091C2CCB731"
+				type: "item"
+				item: {
+					id: "appmek:chemical_storage_cell_16k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.5d
+			dependencies: ["586DB2581BE0ECF5"]
+			id: "40E27F406CE6F0E5"
+			tasks: [{
+				id: "4094351B58EDC6E1"
+				type: "item"
+				item: {
+					id: "appmek:chemical_storage_cell_64k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: 1.5d
+			dependencies: ["40E27F406CE6F0E5"]
+			id: "590C4865B86C5D65"
+			tasks: [{
+				id: "59E6FB644CD7B907"
+				type: "item"
+				item: {
+					id: "appmek:chemical_storage_cell_256k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: 0.5d
+			dependencies: ["3ABE9E3C518F456D"]
+			id: "03534D9BE068F77B"
+			tasks: [{
+				id: "1AE397E87AE43B1A"
+				type: "item"
+				item: {
+					id: "ae2things:disk_drive_64k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: -0.5d
+			dependencies: ["5E0AA1E9B49BA07B"]
+			id: "3ABE9E3C518F456D"
+			tasks: [{
+				id: "1333C934F87EF58D"
+				type: "item"
+				item: {
+					id: "ae2things:disk_drive_16k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: 1.5d
+			dependencies: ["03534D9BE068F77B"]
+			id: "23C4B6CE1E0241AB"
+			tasks: [{
+				id: "2D5FCD01F780AD1B"
+				type: "item"
+				item: {
+					id: "appmek:chemical_storage_cell_256k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: -2.0d
+			dependencies: ["6EBE994E090A0361"]
+			id: "30F8D0F0F28E98DC"
+			tasks: [{
+				id: "09D8313D53782913"
+				type: "item"
+				item: "ae2:spatial_io_port"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -2.0d
+			dependencies: ["30F8D0F0F28E98DC"]
+			id: "3E89D753FE778B9E"
+			tasks: [{
+				id: "71E4707009ACE728"
+				type: "item"
+				item: "ae2:spatial_pylon"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -1.0d
+			dependencies: ["30F8D0F0F28E98DC"]
+			id: "0FB76F2D342B7F11"
+			tasks: [{
+				id: "6E41677273DFDD04"
+				type: "item"
+				item: "ae2:spatial_storage_cell_2"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			dependencies: ["0FB76F2D342B7F11"]
+			id: "269F69AEC1624A5E"
+			tasks: [{
+				id: "1C62826C69C8F346"
+				type: "item"
+				item: "ae2:spatial_storage_cell_16"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 1.0d
+			dependencies: ["269F69AEC1624A5E"]
+			id: "5AE6DDDCA5D000C0"
+			tasks: [{
+				id: "627A277EE8B39D85"
+				type: "item"
+				item: "ae2:spatial_storage_cell_128"
 			}]
 		}
 	]

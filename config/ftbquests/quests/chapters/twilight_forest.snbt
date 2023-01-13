@@ -1,7 +1,7 @@
 {
 	id: "2460DB8DDEB167BE"
 	group: ""
-	order_index: 10
+	order_index: 11
 	filename: "twilight_forest"
 	title: "Twilight Forest"
 	icon: "twilightforest:twilight_portal_miniature_structure"
@@ -597,6 +597,7 @@
 		}
 		{
 			title: "Miniature Twilight Portal"
+			icon: "twilightforest:twilight_portal_miniature_structure"
 			x: 0.0d
 			y: 0.0d
 			description: [
@@ -617,9 +618,8 @@
 			size: 2.0d
 			id: "31B7D924845F50DE"
 			tasks: [{
-				id: "42C1B8732D9094F1"
-				type: "item"
-				item: "twilightforest:twilight_portal_miniature_structure"
+				id: "123D897630DCFAB4"
+				type: "checkmark"
 			}]
 			rewards: [
 				{
