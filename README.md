@@ -96,7 +96,6 @@ Recommanded allocated RAM : 7-8Gb
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/rftools-utility">RFTools Utility (by McJty)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/mantle">Mantle (by mDiyo)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/functional-storage">Functional Storage (by Buuz135)</a></li>
-<li><a href="https://www.curseforge.com/minecraft/mc-mods/world-stripper">World Stripper (by EwyBoy)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/flux-networks">Flux Networks (by sonar_sonic)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/entangled">Entangled (by SuperMartijn642)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/codechicken-lib-1-8">CodeChicken Lib 1.8.+ (by covers1624)</a></li>
