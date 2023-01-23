@@ -37,4 +37,13 @@ onEvent('block.registry', event => {
 	.notSolid()
 	.lightLevel(0.5)
 	.box(3,0,3,13,21,13, true)
+
+	event.create('roboss:logo')
+	.material('metal')
+	.hardness(1.0)
+	.displayName('Logo')
+	.renderType('cutout')
+	.notSolid()
+	.lightLevel(0.5)
+	
 })

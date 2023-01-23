@@ -422,6 +422,66 @@
 				item: "ars_nouveau:creative_source_jar"
 			}]
 		}
+		{
+			x: -3.5d
+			y: 5.0d
+			id: "359AB0C0CFCCE540"
+			tasks: [{
+				id: "6DDC838E38346687"
+				type: "item"
+				item: "avaritia:infinity_sword"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 4.0d
+			id: "31E5DC20C7B75E1D"
+			tasks: [{
+				id: "6FCED16015E2BBA5"
+				type: "item"
+				item: "avaritia:infinity_helmet"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 6.0d
+			id: "17594F362155E1C1"
+			tasks: [{
+				id: "3947DBF3E01A10DF"
+				type: "item"
+				item: "avaritia:infinity_legs"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 5.0d
+			id: "5647D5B7E7001E8E"
+			tasks: [{
+				id: "24B1BB3BB2DB15B6"
+				type: "item"
+				item: "avaritia:infinity_chestplate"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 7.0d
+			id: "1364F01E4CB52F0F"
+			tasks: [{
+				id: "71728C395B266E89"
+				type: "item"
+				item: "avaritia:infinity_boots"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 5.0d
+			id: "240DA3684FF6CE49"
+			tasks: [{
+				id: "3A506E03517E0B59"
+				type: "item"
+				item: "avaritia:infinity_pickaxe"
+			}]
+		}
 	]
 	quest_links: [ ]
 }

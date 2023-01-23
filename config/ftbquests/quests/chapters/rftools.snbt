@@ -26,8 +26,8 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: -6.5d
+			x: 5.5d
+			y: -5.5d
 			description: ["The Machine Infuser is used to improve the efficiency of lot of machines using Dimensional Shards."]
 			dependencies: ["0000000000000ACA"]
 			id: "0000000000000ACC"
@@ -478,8 +478,8 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: -5.5d
+			x: 5.0d
+			y: -6.5d
 			description: ["The Environmental Controller can be used to apply various effects to a large area."]
 			dependencies: ["0000000000000ACA"]
 			id: "41738FB567065B41"

@@ -269,7 +269,7 @@
 			}]
 		}
 		{
-			x: -0.5d
+			x: 0.0d
 			y: 3.5d
 			description: ["Improves base attributes, scale factor : 4x."]
 			dependencies: ["4FF6CDF532386817"]
@@ -973,7 +973,7 @@
 			}]
 		}
 		{
-			x: -1.5d
+			x: -2.0d
 			y: 3.0d
 			description: ["The Phyto-Soil Infuser is a device that uses RF in order to speed up the growth of crops on nearby phyto-soil."]
 			id: "599ECF642C45C33C"

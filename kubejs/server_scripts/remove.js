@@ -42,6 +42,17 @@ onEvent('recipes', e => {
     e.remove({id:'mekanism:processing/lead/nugget/from_ingot'})
 
     //copper
+    e.remove({id:'tconstruct:common/materials/copper_nugget_from_ingot'})
+    e.remove({id:'tconstruct:common/materials/copper_ingot_from_nuggets'})
+    e.remove({id:'immersiveengineering:smelting/copper_ingot_from_dust'})
+    e.remove({id:'immersiveengineering:smelting/copper_ingot_from_dust_from_blasting'})
+    e.remove({id:'immersiveengineering:crafting/copper_ingot_to_nugget_copper'})
+    e.remove({id:'immersiveengineering:crafting/nugget_copper_to_copper_ingot'})
+    e.remove({id:'create:smelting/copper_ingot_from_crushed'})
+    e.remove({id:'create:blasting/copper_ingot_from_crushed'})
+    e.remove({id:'create:crafting/materials/copper_nugget'})
+    e.remove({id:'cyclic:copper_nugget'})
+
 
     //bronze
     e.remove({id:'mekanism:storage_blocks/bronze'})

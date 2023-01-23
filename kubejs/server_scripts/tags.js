@@ -72,6 +72,7 @@ onEvent('tags.items', event => {
                              'immersiveengineering:stick_iron', 
                              'industrialforegoing:iron_gear',
                              'immersiveengineering:slab_storage_lead'])
+    event.add('forge:ingot/paladium', 'palamod:paladium_ingot')
 })
 
 

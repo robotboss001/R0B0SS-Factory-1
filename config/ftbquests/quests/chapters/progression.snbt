@@ -4,24 +4,32 @@
 	order_index: 0
 	filename: "progression"
 	title: "progression"
-	icon: {
-		id: "ftbquests:book"
-		Count: 1b
-		ForgeCaps: {
-			"customnpcs:itemscripteddata": { }
-		}
-	}
+	icon: "roboss:logo"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	images: [{
+		x: 0.0d
+		y: 1.0d
+		width: 10.0d
+		height: 1.5d
+		rotation: 0.0d
+		image: "roboss:textures/ui/logo.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
 	quests: [
 		{
-			x: -2.5d
-			y: -4.5d
+			title: "Miscellaneous"
+			icon: "ftbquests:book"
+			x: 1.5d
+			y: 2.5d
+			dependencies: ["0163EF4A5A6A1C7B"]
 			id: "30832019D909C77A"
 			tasks: [{
-				id: "510D04A804E6F42D"
-				type: "item"
-				item: "ftbquests:book"
+				id: "1BC95CF202912B01"
+				type: "checkmark"
 			}]
 			rewards: [{
 				id: "0F857FD86549C6E8"
@@ -32,8 +40,9 @@
 		{
 			title: "Create"
 			icon: "create:crushing_wheel"
-			x: -4.5d
-			y: -3.5d
+			x: -0.5d
+			y: 3.5d
+			dependencies: ["000000000000044D"]
 			id: "06CDBD9C9DB8EEF8"
 			tasks: [{
 				id: "2367C07B6EE15270"
@@ -48,8 +57,9 @@
 		{
 			title: "Mekanism"
 			icon: "mekanism:quantum_entangloporter"
-			x: -2.5d
-			y: -3.5d
+			x: 1.5d
+			y: 3.5d
+			dependencies: ["0000000000000859"]
 			id: "3252255A365BA1CA"
 			tasks: [{
 				id: "24AD8BC99EB05A22"
@@ -62,19 +72,15 @@
 			}]
 		}
 		{
-			x: -5.5d
-			y: -4.5d
+			icon: "thermal:wrench"
+			x: -1.5d
+			y: 2.5d
+			dependencies: ["75BCA105246FEFD5"]
 			id: "2FC9DD2BC364D083"
 			tasks: [{
-				id: "42E6C24EA5DA9745"
-				type: "item"
-				item: {
-					id: "thermal:wrench"
-					Count: 1b
-					ForgeCaps: {
-						"customnpcs:itemscripteddata": { }
-					}
-				}
+				id: "2FCFD6339C3371A1"
+				type: "checkmark"
+				title: "Thermal"
 			}]
 			rewards: [{
 				id: "41556F7D2B654DAB"
@@ -83,19 +89,15 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: -4.5d
+			title: "RFToold"
+			icon: "rftoolsbase:dimensionalshard"
+			x: 0.5d
+			y: 2.5d
+			dependencies: ["0000000000000AC7"]
 			id: "5FFA7A7E765D2B0C"
 			tasks: [{
-				id: "33E2DBA254A49C91"
-				type: "item"
-				item: {
-					id: "rftoolsbase:machine_frame"
-					Count: 1b
-					ForgeCaps: {
-						"customnpcs:itemscripteddata": { }
-					}
-				}
+				id: "25F2F8D5318A4EB6"
+				type: "checkmark"
 			}]
 			rewards: [{
 				id: "2271F4B71C95E4D4"
@@ -104,26 +106,23 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: -4.0d
+			title: "Upgrade Netherite"
+			icon: "upgradednetherite_ultimate:ultimate_upgraded_netherite_ingot"
+			x: 3.5d
+			y: 3.0d
+			dependencies: ["17817A4DC532E2EC"]
 			id: "14623E0A92964F40"
 			tasks: [{
-				id: "7EF70D07D2C209E9"
-				type: "item"
-				item: {
-					id: "upgradednetherite_ultimate:ultimate_upgraded_netherite_ingot"
-					Count: 1b
-					ForgeCaps: {
-						"customnpcs:itemscripteddata": { }
-					}
-				}
+				id: "2CDB9E8B1AC97405"
+				type: "checkmark"
 			}]
 		}
 		{
 			title: "Power generation"
 			icon: "solarflux:sp_1"
-			x: -6.5d
-			y: -4.5d
+			x: -2.5d
+			y: 2.5d
+			dependencies: ["000000000000059D"]
 			id: "332FFEC02948D74B"
 			tasks: [{
 				id: "7AE42AD667177543"
@@ -138,8 +137,8 @@
 		{
 			title: "Applied Energistics 2"
 			icon: "ae2:controller"
-			x: -4.5d
-			y: -4.5d
+			x: -0.5d
+			y: 2.5d
 			dependencies: ["00000000000000B8"]
 			id: "05A5AEB405FEEB3D"
 			tasks: [{
@@ -155,8 +154,9 @@
 		}
 		{
 			icon: "twilightforest:twilight_portal_miniature_structure"
-			x: -6.5d
-			y: -3.5d
+			x: -2.5d
+			y: 3.5d
+			dependencies: ["2460DB8DDEB167BE"]
 			id: "66F87A8E9A9A2587"
 			tasks: [{
 				id: "59CFD72A83BCEE88"
@@ -174,12 +174,10 @@
 				id: "projecte:philosophers_stone"
 				Count: 1b
 				tag: { }
-				ForgeCaps: {
-					Parent: { }
-				}
 			}
-			x: -1.5d
-			y: -4.5d
+			x: 2.5d
+			y: 2.5d
+			dependencies: ["3D7606CCC3AA3984"]
 			id: "0684A94501C53B51"
 			tasks: [{
 				id: "691783CFF880E984"
@@ -194,8 +192,9 @@
 		}
 		{
 			icon: "botania:natura_pylon"
-			x: -5.5d
-			y: -3.5d
+			x: -1.5d
+			y: 3.5d
+			dependencies: ["0000000000000371"]
 			id: "2D4B71EFA1A42100"
 			tasks: [{
 				id: "7911FEE682B29471"
@@ -210,8 +209,9 @@
 		}
 		{
 			icon: "extendedcrafting:ultimate_table"
-			x: -3.5d
-			y: -3.5d
+			x: 0.5d
+			y: 3.5d
+			dependencies: ["5F1828D807F8D85C"]
 			id: "0C2672997483434C"
 			tasks: [{
 				id: "37CA20C7BC75B5B3"
@@ -232,24 +232,62 @@
 					Damage: 0
 				}
 			}
-			x: -1.5d
-			y: -3.5d
+			x: 2.5d
+			y: 3.5d
+			dependencies: ["0000000000000691"]
 			id: "33BAF0BC4AF6FA30"
 			tasks: [{
 				id: "056D19C7B3467D23"
 				type: "checkmark"
 				title: "Immersive Engeneering"
 			}]
+			rewards: [{
+				id: "709DF9C4FA36573D"
+				type: "item"
+				item: "roboss:immersiveengineering_trophy"
+			}]
 		}
 		{
 			icon: "extendedcrafting:the_ultimate_ingot"
-			x: -7.5d
-			y: -4.0d
+			x: -3.5d
+			y: 3.0d
+			dependencies: ["3B7F1D29EC26E902"]
 			id: "2405656810888D7B"
 			tasks: [{
 				id: "452AC3011D5197A8"
 				type: "checkmark"
 				title: "End Game"
+			}]
+		}
+		{
+			title: "Thanks for playing"
+			icon: "roboss:logo"
+			x: 0.0d
+			y: 5.0d
+			dependencies: [
+				"05A5AEB405FEEB3D"
+				"06CDBD9C9DB8EEF8"
+				"2D4B71EFA1A42100"
+				"2405656810888D7B"
+				"0C2672997483434C"
+				"33BAF0BC4AF6FA30"
+				"3252255A365BA1CA"
+				"30832019D909C77A"
+				"332FFEC02948D74B"
+				"0684A94501C53B51"
+				"5FFA7A7E765D2B0C"
+				"2FC9DD2BC364D083"
+				"14623E0A92964F40"
+			]
+			id: "14B90E757859B622"
+			tasks: [{
+				id: "0291A8738320C87E"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "56E6CDEFCC120084"
+				type: "item"
+				item: "roboss:logo"
 			}]
 		}
 	]

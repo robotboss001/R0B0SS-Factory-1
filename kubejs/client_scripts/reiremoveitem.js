@@ -1,5 +1,7 @@
 onEvent('rei.hide.items', event => {
-    event.hide(['immersiveengineering:deepslate_ore_lead', 
+    event.hide([
+                //lead
+                'immersiveengineering:deepslate_ore_lead', 
                 'immersiveengineering:raw_block_lead', 
                 'immersiveengineering:raw_lead', 
                 'immersiveengineering:storage_lead', 
@@ -24,6 +26,22 @@ onEvent('rei.hide.items', event => {
                 Item.of('ae2:facade', '{item:"immersiveengineering:ore_lead"}'),
                 Item.of('ae2:facade', '{item:"immersiveengineering:raw_block_lead"}'),
                 Item.of('ae2:facade', '{item:"immersiveengineering:storage_lead"}'),
-                Item.of('ae2:facade', '{item:"mekanism:deepslate_lead_ore"}')
+                Item.of('ae2:facade', '{item:"mekanism:deepslate_lead_ore"}'),
+                //copper
+                'create:copper_sheet', 
+                'immersiveengineering:plate_copper', 
+                'immersiveengineering:wire_copper', 
+                'immersiveengineering:dust_copper', 
+                'mekanism:dust_copper', 
+                'create:copper_nugget', 
+                'tconstruct:copper_nugget', 
+                'immersiveengineering:nugget_copper', 
+                'cyclic:copper_nugget',
+                'create:crushed_copper_ore',
+                //bronze
+                'mekanism:dust_bronze', 
+                'mekanism:ingot_bronze', 
+                'mekanism:nugget_bronze', 
+                'mekanism:block_bronze'
             ])
   })

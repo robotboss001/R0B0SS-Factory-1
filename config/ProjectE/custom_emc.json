@@ -51,6 +51,10 @@
     {
       "item": "cyclic:netherite_nugget",
       "emc": 0
+    },
+    {
+      "item": "thermal:tin_dust",
+      "emc": 256
     }
   ]
 }

@@ -30,9 +30,10 @@
 				}
 			}]
 			rewards: [{
-				id: "0BD9D6BC8144753F"
-				type: "item"
-				item: "mysticalagradditions:supremium_coal_block"
+				id: "72B50CD45E4AB07F"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6352993187007078229L
 			}]
 		}
 		{

@@ -1,5 +1,5 @@
 {
-	 
+	"credit": "Made with Blockbench",
 	"textures": {
 		"particle": "roboss:block/trophies/ae2_trophy",
 		"texture": "roboss:block/trophies/ae2_trophy"
@@ -134,7 +134,7 @@
 			"origin": [8, 8, 8],
 			"color": 0,
 			"nbt": "{}",
-			"armAnimationEnabled": true,
+			"armAnimationEnabled": "true",
 			"children": []
 		},
 		0,

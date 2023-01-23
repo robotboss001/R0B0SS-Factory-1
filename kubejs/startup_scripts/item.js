@@ -13,5 +13,6 @@ onEvent('item.registry', event => {
     event.create('roboss:kikongin_plate').displayName('Kikongin plate')
     event.create('roboss:blakdestroyer_plate').displayName('Blakdestroyer plate')
     event.create('roboss:engagement_ring').displayName('Engagement ring')
+    event.create('palamod:paladium_ingot').displayName('Paladium ingot')
 
 })
