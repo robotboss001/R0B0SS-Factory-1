@@ -1,4 +1,4 @@
-<img style="display: block; margin-left: auto; margin-right: auto;" src="https://cdn.discordapp.com/attachments/869323242165370882/1067148386635108402/logo.png" width="1000" height="150" /> 
+<img style="display: block; margin-left: auto; margin-right: auto;" src="https://cdn.discordapp.com/attachments/869323242165370882/1067148386635108402/logo.png" width="666" height="100" /> 
 
 # Modpack's files
 
